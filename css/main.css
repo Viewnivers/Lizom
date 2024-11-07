@@ -277,7 +277,7 @@ a {
 a:hover, a:focus, a:active {
   text-decoration: none;
   border: none;
-  color: #2E8B57;
+  color: #e6da60;
 }
 
 /* MEDIA */
@@ -326,14 +326,14 @@ del {
 }
 
 ::-moz-selection {
-  background: #2E8B57;
+  background: #e6da60;
   color: #fff;
   text-shadow: none
 }
 
 /* selected text */
 ::selection {
-  background: #2E8B57;
+  background: #e6da60;
   color: #fff;
   text-shadow: none
 }
@@ -469,7 +469,7 @@ body {
 
 /* Backgrounds */
 .bg-1 {
-  background-image: url('../images/SL-030822-49070-19.jpg');
+  background-color: #fefbdc;
 }
 
 /* Header */
@@ -510,8 +510,9 @@ body {
   padding: 30px 20px;
   background: #fff;
   border: 1px solid #f1f1f1;
-  box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #fffacd;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 10px 10px 10px gray;
 }
 
 .tab {
@@ -552,7 +553,7 @@ body {
 
 .tab a.active {
   padding-top: 10px;
-  color: #2E8B57;
+  color: #e6da60;
 }
 
 .tab a i {
@@ -582,7 +583,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
-  color: #fff;
+  color: #e6da60;
 }
 
 .info h2, #header h2 {
@@ -593,7 +594,7 @@ body {
 }
 
 .info h4, #header h4 {
-  color: #59BD85;
+  color: #e6da60;
   margin-bottom: 2em;
 }
 
@@ -601,7 +602,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
-  color: #fff;
+  color: #e6da60;
 }
 
 .info h7, #header h7 {
@@ -662,7 +663,7 @@ body {
 .item-box .item-data p {
   margin: 0px;
   font-size: 12px;
-  color: #2E8B57;
+  color: #e6da60;
   text-decoration-style: bold;
 }
 
@@ -828,12 +829,12 @@ body {
 }
 
 .label-success {
-  background-color: #5cb85c;
+  background-color: #e6da60;
 }
 
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #449d44;
+  background-color: #e6da60;
 }
 
 .label-warning {
@@ -857,7 +858,7 @@ body {
 .project-container {
   max-width: 240px;
   border-radius: 5px;
-  background-color: #5cb85c;
+  background-color: #e6da60;
   color: #fff;
   cursor: pointer;
   box-shadow: 2px 2px 5px 3px #5cb85c27;
@@ -902,7 +903,7 @@ input[type=text], .project_description, input[type=url] {
 
 /* Set a style for all buttons */
 .project_submit {
-  background-color: #4CAF50;
+  background-color: #e6da60;
   color: white;
   padding: 14px 20px;
   margin: 5px 26px;
@@ -1017,7 +1018,7 @@ input[type=text], .project_description, input[type=url] {
 }
 
 .emerald>span {
-  background-color: #2E8B57;
+  background-color: #e6da60;
 }
 
 .carrot>span {
